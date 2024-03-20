@@ -1,11 +1,16 @@
 
-public class Product {
-    private String name;
-    private double cost;
+public abstract class Product {
+    protected String name;
+    protected double cost;
 
     public Product(String name, double cost) {
         this.name = name;
         this.cost = cost;
+    }
+
+    //создадим пустой конструктор
+    public Product() {
+        
     }
 
     public String getName(){
