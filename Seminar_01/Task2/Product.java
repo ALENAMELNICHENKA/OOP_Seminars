@@ -16,4 +16,9 @@ public class Product {
         return cost;
     }
     
+    @Override
+
+    public String toString() {
+        return String.format("Товар: %s, Цена: %.2f", name, cost);
+    }
 }
