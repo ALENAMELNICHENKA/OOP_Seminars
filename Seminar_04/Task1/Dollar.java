@@ -4,7 +4,7 @@ public class Dollar extends Money {
 
     @Override
     public String toString() {
-        return "Количество средств: "  + amountMoney + ".";
+        return "Количество средств: "  + amountMoney + " USD.";
     }
     
 }
