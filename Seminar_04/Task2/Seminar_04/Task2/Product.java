@@ -1,0 +1,24 @@
+package Seminar_04.Task2;
+
+public class Product <T> {
+
+    private T name;
+
+    public Product(T name) {
+        this.name = name;
+    }
+
+    public T getName() {
+        return name;
+    }
+
+    public void setName(T name) {
+        this.name = name;
+    }
+
+    public String toString() {
+        return "Product{" + "name=" + name + '}';
+    }
+
+    
+}
