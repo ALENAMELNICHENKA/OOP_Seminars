@@ -1,4 +1,4 @@
-package Seminar_04.Task2;
+
 
 public class Product <T> {
 

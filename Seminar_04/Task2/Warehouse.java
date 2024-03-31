@@ -1,4 +1,4 @@
- package Seminar_04.Task2;
+ 
 
 import java.util.HashMap;
 import java.util.Map;
